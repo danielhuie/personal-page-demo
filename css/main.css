@@ -36,19 +36,35 @@ header a:focus {
 #about, #projects {
 	background-color: #F4D64A;
 	opacity: 0.7;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1x;
+	transition-duration: 1s;	
 }
 
 #about:hover, #projects:hover {
 	opacity: 1;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1x;
+	transition-duration: 1s;
 }
 
 #education, #contact {
 	background-color: #DA2424;
 	opacity: 0.7;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1x;
+	transition-duration: 1s;	
 }
 
 #education:hover, #contact:hover {
 	opacity: 1;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1x;
+	transition-duration: 1s;
 }
 
 footer {
@@ -64,6 +80,11 @@ footer {
 
 #about img:hover {
 	opacity: 1;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+
 }
 
 #education {
